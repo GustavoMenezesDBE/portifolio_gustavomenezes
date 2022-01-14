@@ -1,0 +1,190 @@
+body, p, h1, h2, input, textarea {
+    margin: 0;
+    font-family: Lora;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#navbar {
+    background-color: red;
+    padding: 0 15px;
+    height: 60px;
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
+    display: inline-block;
+}
+
+#navbar h2 {
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+    color: white;
+}
+
+#navbar img {
+    height: 43px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 10px;
+}
+
+#navbar nav {
+    float: right;
+}
+
+#navbar ul {
+    margin: 22px;
+}
+
+#navbar li {
+    margin: 0 10px;
+}
+
+#navbar-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar-list a:hover {
+    border-bottom: 1px solid white;
+}
+
+#main-banner {
+    height: 70vh;
+    background-image: url('../img/bg-projeto.jpg');
+    background-size: cover;
+    padding-top: 15vh;
+}
+
+#banner-info {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+#banner-info img {
+    height: 120px;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#banner-info p {
+    background-color: red;
+    font-weight: bold;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    color: white;
+}
+
+#about-section {
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding-top: 50px;
+    height: 350px;
+}
+
+#about-section h2 {
+    margin-bottom: 20px;
+}
+
+#about-section p {
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+}
+
+#skills-section {
+    margin-top: -100px;
+    background-color: white;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid #ddd;
+    border-radius: 20px;
+}
+
+#skills-section .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-container {
+    flex: 2 1 2;
+    text-align: center;
+    padding: 60px 25px;
+}
+
+.central {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.skills-container h3 {
+    color: red;
+    font-size: 20px;
+}
+
+.skills-container img {
+    height: 60px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-bottom: 4px solid red;
+    border-right: 4px solid red;
+}
+
+.skills-container .subtitle {
+    font-weight: lora;
+    color: red;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.skills-container p {
+    line-height: 25px;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+footer img {
+    height: 50px;
+    margin: 30px 0;
+}
+
+footer p {
+    margin-top: 25px;
+}
+
+footer form {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer input, footer textarea {
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 400px;
+    display: block;
+}
